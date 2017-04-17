@@ -7,7 +7,9 @@ class Player {
     console.log('Playing '+this.currentSong);
   }
   //TODO: Add Pause()
-
+  pause(){
+    console.log('Pausing song');
+  }
   //TODO: Add Stop()
 
   add(song){
