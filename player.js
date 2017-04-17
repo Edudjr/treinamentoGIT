@@ -8,8 +8,13 @@ class Player {
     console.log('Playing '+this.currentSong);
   }
   //TODO: Add Pause()
-
+  pause(){
+    console.log('Pausing song');
+  }
   //TODO: Add Stop()
+  stop(){
+    console.log('Stopping song');
+  }
 
   add(song){
     this.playlist.push(song);
