@@ -2,7 +2,7 @@ class Player {
   constructor(){
     this.playlist = ['song1.mp3'];
     this.currentSong = this.playlist[0];
-    this.state = 'STOPPED'
+    this.state = 'STOPPED';
   }
   play(){
     console.log('Playing '+this.currentSong);
@@ -10,6 +10,7 @@ class Player {
   //TODO: Add Pause()
   pause(){
     console.log('Pausing song');
+    this.state = 'PAUSED';
   }
   //TODO: Add Stop()
   stop(){
