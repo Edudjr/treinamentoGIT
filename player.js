@@ -15,6 +15,7 @@ class Player {
   //TODO: Add Stop()
   stop(){
     console.log('Stopping song');
+    this.state = 'STOPPED';
   }
 
   add(song){
